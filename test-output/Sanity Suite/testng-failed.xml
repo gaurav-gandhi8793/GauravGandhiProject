@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="FirefoxTesting(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.Saucedemo.TestClasses.TC005_VerifyUserAbleToApplyFilter">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="setUp"/>
+          <include name="Applyfilter"/>
+        </methods>
+      </class> <!-- com.Saucedemo.TestClasses.TC005_VerifyUserAbleToApplyFilter -->
+      <class name="com.Saucedemo.TestClasses.TC004_VerifyAddToCartFunctionalityForAllProducts">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="VerifyAddToCartFunctionalityForAllProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Saucedemo.TestClasses.TC004_VerifyAddToCartFunctionalityForAllProducts -->
+    </classes>
+  </test> <!-- FirefoxTesting(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->
