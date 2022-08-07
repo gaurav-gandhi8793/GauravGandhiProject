@@ -24,7 +24,7 @@ public class TakeScreenshot {
 		File sourcefile = ts.getScreenshotAs(OutputType.FILE);
 		File destfile = new File("C:\\Users\\HP\\Desktop\\SOFTWARE TESTING\\Automation Screenshot\\POM Screenshot\\pomfile"+date+".jpg");
 		FileHandler.copy(sourcefile, destfile);
-		System.out.println("Screenshot is Taken");
+		System.out.println("Screenshot is TAKEN");
 	}
 
 }

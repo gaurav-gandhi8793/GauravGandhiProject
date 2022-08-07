@@ -22,15 +22,6 @@ public class TestBaseClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Desktop\\SOFTWARE TESTING\\SELENIUM DOWNLOADS"
 				+ "\\ChromeDriver_Selenium\\chromedriver.exe");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		driver = new ChromeDriver();
 		System.out.println("Browser is Opened");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
